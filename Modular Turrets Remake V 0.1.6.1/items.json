@@ -24,8 +24,7 @@
       "monster_id": "mon_turret_shot",
       "difficulty": 4,
       "moves": 100,
-      "skill1": "electronics",
-      "skill2": "computer"
+      "skills": [ "electronics", "computer" ]
     }
   },
   {
@@ -42,8 +41,7 @@
       "monster_id": "mon_milturret_flame",
       "difficulty": 6,
       "moves": 100,
-      "skill1": "electronics",
-      "skill2": "computer"
+      "skills": [ "electronics", "computer" ]
     }
   },
   {
@@ -60,8 +58,7 @@
       "monster_id": "mon_advturret_rail",
       "difficulty": 6,
       "moves": 100,
-      "skill1": "electronics",
-      "skill2": "computer"
+      "skills": [ "electronics", "computer" ]
     }
   },
   {
@@ -78,8 +75,7 @@
       "monster_id": "mon_turret_nail",
       "difficulty": 6,
       "moves": 100,
-      "skill1": "electronics",
-      "skill2": "computer"
+      "skills": [ "electronics", "computer" ]
     }
   },
   {

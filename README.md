@@ -8,6 +8,8 @@ I updated it pretty much for my own use in the span of an hour so things are VER
 and most turrets not actually being able to be loaded or reloaded by magazine and must be reloaded automaticly on deploy 
 BUT it seems to run without errors and on my 5 mins of testing things seemed to be fine on craft and deploy ¯\_(ツ)_/¯
 
+forked because I didnt think id get it working
+
 I only removed errors as fast as I could
 
 ¯\_(ツ)_/¯

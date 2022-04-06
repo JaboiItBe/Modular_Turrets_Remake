@@ -81,5 +81,24 @@
       "skill1": "electronics",
       "skill2": "computer"
     }
+  },
+  {
+    "id": "nailmagr",
+    "looks_like": "stanag30",
+    "type": "MAGAZINE",
+    "name": { "str": "Nailgun turret 500-round makeshift magazine" },
+    "description": "An improvised magazine for use with a nailgun turret.  Little more than a metal box, spring and some duct tape it is awkward to reload.",
+    "weight": "60 g",
+    "volume": "250 ml",
+    "price": 1920,
+    "material": "steel",
+    "symbol": "#",
+    "color": "light_gray",
+    "ammo_type": "nail",
+    "reload_time": 300,
+    "flags": [ "MAG_COMPACT" ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "nail": 500 } } ]
   }
+]
+
 ]

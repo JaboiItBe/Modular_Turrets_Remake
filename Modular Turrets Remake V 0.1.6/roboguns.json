@@ -22,11 +22,12 @@
     "name": "integral 12 gauge shotgun",
     "skill": "shotgun",
     "ammo": "shot",
-    "clip_size": 100,
+    "clip_size": 20,
     "ranged_damage": { "damage_type": "stab", "amount": 10 },
     "dispersion": 345,
     "loudness": 75,
-    "modes": [ [ "DEFAULT", "semi-auto", 1 ] ]
+    "modes": [ [ "DEFAULT", "semi-auto", 1 ] ],
+	"pocket_data": [ { "magazine_well": "500 ml", "pocket_type": "MAGAZINE_WELL", "item_restriction": [ "shotbelt_20" ] } ]
   },
   {
     "id": "robogun_flame",
@@ -39,22 +40,24 @@
     "ammo_effects": [ "FIRE_20", "WIDE" ],
     "range": 10,
     "dispersion": 300,
-    "modes": [ [ "DEFAULT", "semi-auto", 1 ] ]
+    "modes": [ [ "DEFAULT", "semi-auto", 1 ] ],
+	"pocket_data": [ { "magazine_well": "3 L", "pocket_type": "MAGAZINE_WELL", "item_restriction": [ "pressurized_tank" ] } ]
   },
   {
     "id": "robogun_rail",
     "type": "GUN",
     "copy-from": "robogun_base",
     "name": "integral railgun",
-    "ammo": "metal_rail",
-    "clip_size": 50,
+    "ammo": "nail",
+    "clip_size": 500,
     "skill": "rifle",
     "range": 40,
     "ranged_damage": { "damage_type": "stab", "amount": 40 },
     "dispersion": 100,
     "loudness": 34,
     "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "BURST", "2 rd.", 2 ] ],
-    "ammo_effects": [ "INCENDIARY" ]
+    "ammo_effects": [ "INCENDIARY" ],
+	"pocket_data": [ { "magazine_well": "250 ml", "pocket_type": "MAGAZINE_WELL", "item_restriction": [ "nailmagr" ] } ]
   },
   {
     "id": "robogun_advnail",
@@ -67,6 +70,7 @@
     "loudness": 5,
     "clip_size": 500,
     "dispersion": 100,
-    "modes": [ [ "AUTO", "auto", 3 ] ]
+    "modes": [ [ "AUTO", "auto", 3 ] ],
+	"pocket_data": [ { "magazine_well": "250 ml", "pocket_type": "MAGAZINE_WELL", "item_restriction": [ "nailmagr" ] } ]
   }
 ]

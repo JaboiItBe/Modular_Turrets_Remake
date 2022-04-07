@@ -8,7 +8,7 @@
     "looks_like": "bot_utilibot",
     "material": [ "steel", "aluminum" ],
     "name": "inactive knight robot",
-    "description": "A utility robot modified for melee combat, one of the hand was welded with a broadsword and it's IA core was reprogrammed to attack and dodge attacks and the most fragile areas was reinforced with steel plates.",
+    "description": "A utility robot modified for melee combat, one of the hand was welded with a broadsword and it's AI core was reprogrammed to attack and dodge attacks and the most fragile areas was reinforced with steel plates.",
     "copy-from": "bot_utilibot_base",
     "use_action": {
       "type": "place_monster",
@@ -27,7 +27,7 @@
     "looks_like": "bot_utilibot_butler",
     "material": [ "steel", "aluminum" ],
     "name": "inactive assasin robot",
-    "description": "A butler robot modified for melee combat, one of the hand was welded with a tanto and it's IA core was reprogrammed to attack and dodge attacks, it use hit and run tactics and the extra speed of the safety overrides to compensate of how fragile it's.",
+    "description": "A butler robot modified for melee combat, one of the hand was welded with a tanto and it's AI core was reprogrammed to attack and dodge attacks, it use hit and run tactics and the extra speed of the safety overrides to compensate of how fragile it's.",
     "copy-from": "bot_utilibot_base",
     "use_action": {
       "type": "place_monster",
@@ -46,7 +46,7 @@
     "looks_like": "bot_utilibot_const",
     "material": [ "steel", "aluminum" ],
     "name": "inactive smasher robot",
-    "description": "A construction robot modified for melee combat, all the integrated tools were strip of it and one of the hand was welded with a sledge hammer and it's IA core was reprogrammed to attack but it doesn't dodge incomming attacks, it use a steel plating armor to protect itself and can withstand a lot of damage before it shuts down but it's rather slow.",
+    "description": "A construction robot modified for melee combat, all the integrated tools were strip of it and one of the hand was welded with a sledge hammer and it's AI core was reprogrammed to attack but it doesn't dodge incomming attacks, it use a steel plating armor to protect itself and can withstand a lot of damage before it shuts down but it's rather slow.",
     "copy-from": "bot_utilibot_base",
     "use_action": {
       "type": "place_monster",
@@ -65,7 +65,7 @@
     "looks_like": "bot_utilibot_fire",
     "material": [ "steel", "nomex" ],
     "name": "inactive hellknight robot",
-    "description": "A firefighter robot modified for melee combat, the water cannon was strip and one of the hand was welded with a broadsword and it's IA core was reprogrammed to attack and dodge incomming attacks. It use it's own integrated water pumping system to pump and ignite the sword on fire to cause even more damage.",
+    "description": "A firefighter robot modified for melee combat, the water cannon was strip and one of the hand was welded with a broadsword and it's AI core was reprogrammed to attack and dodge incomming attacks. It use it's own integrated water pumping system to pump and ignite the sword on fire to cause even more damage.",
     "copy-from": "bot_utilibot_base",
     "use_action": {
       "type": "place_monster",
@@ -120,7 +120,7 @@
     "looks_like": "bot_grocerybot",
     "material": [ "steel", "aluminum" ],
     "name": "inactive grocery bot mk2",
-    "description": "A grocery bot modified for melee combat, one of the hand was welded with a electric chainsaw and it's IA core was reprogrammed to attack but it doesn't dodge attacks.",
+    "description": "A grocery bot modified for melee combat, one of the hand was welded with a electric chainsaw and it's AI core was reprogrammed to attack but it doesn't dodge attacks.",
     "copy-from": "bot_utilibot_base",
     "use_action": {
       "type": "place_monster",

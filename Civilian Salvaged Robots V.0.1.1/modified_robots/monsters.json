@@ -195,15 +195,16 @@
   {
     "id": "mon_nailer",
     "type": "MONSTER",
+	"copy-from": "mon_utilibot",
 	"looks_like": "mon_eyebot",
     "name": "eye nailer",
     "symbol": "e",
-	"speed": 130,
+	"speed": 200,
 	"hp": 20,
     "material": [ "steel" ],
     "morale": 100,
-    "melee_cut": 0,
 	"aggression": 100,
+	"tracking_distance": 5,
     "dodge": 3,
     "armor_bash": 8,
     "armor_cut": 10,
@@ -214,7 +215,6 @@
     "color": "light_gray",
 	"death_function": { "corpse_type": "BROKEN" },
     "revert_to_itype": "bot_nailer",
-	"copy-from": "mon_utilibot",
     "starting_ammo": { "nail": 500 },
     "special_attacks": [
       {

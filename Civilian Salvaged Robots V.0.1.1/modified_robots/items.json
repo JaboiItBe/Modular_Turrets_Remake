@@ -112,6 +112,24 @@
     }
   },
   {
+    "id": "bot_eyebot_nail",
+    "weight": "6 kg",
+    "volume": "5 L",
+    "type": "TOOL",
+    "symbol": "e",
+    "looks_like": "mon_eyebot",
+    "material": [ "steel", "aluminum" ],
+    "name": "inactive eye nail",
+    "description": "A dark humor concoction thought up by a mad scavenger, unthinkable before the cataclysm, but it seems now the gloves are off.",
+    "copy-from": "mon_eyebot",
+    "use_action": {
+      "type": "place_monster",
+      "monster_id": "mon_eyebot_nail",
+      "difficulty": 3,
+      "moves": 100,
+      "skills": [ "electronics", "computer" ]
+    },
+  {
     "id": "bot_grocery_killer",
     "weight": "140 kg",
     "volume": "65 L",

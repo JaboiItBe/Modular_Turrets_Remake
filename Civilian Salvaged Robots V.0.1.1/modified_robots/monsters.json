@@ -191,5 +191,33 @@
     "anger_triggers": [ "HURT" ],
     "revert_to_itype": "bot_grocery_killer",
     "description": "A grocery bot modified for melee combat. It wields a chainsaw revving, moving slowly with a smile towards the clients to rip their flesh for not paying their bills."
+  },
+  {
+    "id": "mon_eyebot_nail",
+    "type": "MONSTER",
+    "copy-from": "mon_eyebot",
+    "name": "eye nail",
+    "symbol": "e",
+    "description": "A dark humor concoction thought up by a mad scavenger, unthinkable before the cataclysm, but it seems now the gloves are off.",
+    "default_faction": "defense_bot",
+    "diff": 30,
+    "color": "light_gray",
+    "revert_to_itype": "bot_eyebot_nail",
+    "starting_ammo": { "nail": 500 },
+    "special_attacks": [
+      {
+        "type": "gun",
+        "cooldown": 5,
+        "gun_type": "robogun_advnaile",
+        "ammo_type": "nail",
+        "fake_skills": [ [ "gun", 2 ], [ "smg", 2 ] ],
+        "fake_dex": 8,
+        "no_ammo_sound": "click click!",
+        "ranges": [ [ 0, 4, "default" ] ],
+		"targeting_sound": "\"Hostile head detected.\""
+		"targeting_volume": 10
+      }
+    ],
+    "extend": { "flags": [ "DROPS_AMMO" ] }
   }
 ]

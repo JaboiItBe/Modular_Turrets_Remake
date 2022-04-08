@@ -12,5 +12,19 @@
     "loudness": 5,
     "modes": [ [ "AUTO", "auto", 3 ] ],
 	"pocket_data": [ { "magazine_well": "250 ml", "pocket_type": "MAGAZINE_WELL", "item_restriction": [ "nailmagr" ] } ]
+  },
+  {
+    "id": "robogun_advnaile",
+    "type": "GUN",
+    "copy-from": "robogun_base",
+    "name": "integral nailgun",
+    "ammo": "nail",
+    "skill": "smg",
+    "range": 3,
+    "loudness": 5,
+    "clip_size": 500,
+    "dispersion": 100,
+    "modes": [ [ "AUTO", "auto", 3 ] ],
+	"pocket_data": [ { "magazine_well": "250 ml", "pocket_type": "MAGAZINE_WELL", "item_restriction": [ "nailmagr" ] } ]
   }
 ]

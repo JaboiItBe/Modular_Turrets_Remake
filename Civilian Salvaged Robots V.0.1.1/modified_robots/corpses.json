@@ -79,6 +79,16 @@
   },
   {
     "type": "GENERIC",
+    "id": "broken_eye_nail",
+    "weight": "6 kg",
+    "volume": "5 L",
+    "copy-from": "broken_eyebot",
+    "looks_like": "broken_eyebot",
+    "name": "broken eyebot",
+    "description": "The eye nailer has perished, and is now wrecked and immobile. Could be stripped down for parts."
+  },
+  {
+    "type": "GENERIC",
     "id": "broken_grocery_killer",
     "weight": "140 kg",
     "volume": "65 L",

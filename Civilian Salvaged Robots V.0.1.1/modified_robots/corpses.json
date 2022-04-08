@@ -79,16 +79,6 @@
   },
   {
     "type": "GENERIC",
-    "id": "broken_eye_nail",
-    "weight": "6 kg",
-    "volume": "5 L",
-    "copy-from": "broken_eyebot",
-    "looks_like": "broken_eyebot",
-    "name": "broken eyebot",
-    "description": "The eye nailer has perished, and is now wrecked and immobile. Could be stripped down for parts."
-  },
-  {
-    "type": "GENERIC",
     "id": "broken_grocery_killer",
     "weight": "140 kg",
     "volume": "65 L",
@@ -96,5 +86,15 @@
     "looks_like": "broken_grocerybot",
     "name": "broken grocery bot mk2",
     "description": "A grocery bot mk2, now now wrecked and immobile. Could be stripped down for parts."
+  },
+  {
+    "type": "GENERIC",
+    "id": "broken_nailer",
+    "weight": "6 kg",
+    "volume": "5 L",
+	"looks_like": "broken_utilibot",
+	"copy-from": "broken_utilibot",
+    "name": "broken nailer",
+    "description": "The eye nailer has perished, and is now wrecked and immobile. Could be stripped down for parts."
   }
 ]

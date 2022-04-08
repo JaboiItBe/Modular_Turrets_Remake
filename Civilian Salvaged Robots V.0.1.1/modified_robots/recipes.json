@@ -203,35 +203,6 @@
   },
   {
     "type": "recipe",
-    "result": "bot_eyebot_nail",
-    "category": "CC_ELECTRONIC",
-    "subcategory": "CSC_ELECTRONIC_OTHER",
-    "skill_used": "electronics",
-    "skills_required": [ [ "mechanics", 4 ], [ "computer", 4 ] ],
-    "difficulty": 4,
-    "book_learn": [ [ "textbook_hack_robots", 6 ] ],
-    "time": "60 m",
-    "using": [ [ "soldering_standard", 10 ] ],
-    "qualities": [
-      { "id": "SCREW", "level": 1 },
-      { "id": "SCREW_FINE", "level": 1 }
-    ],
-    "components": [
-	  [ [ "ai_module", 1 ] ],
-      [ [ "identification_module", 1 ] ],
-      [ [ "pathfinding_module", 1 ] ],
-      [ [ "sensor_module", 1 ] ],
-      [ [ "small_storage_battery", 1 ] ],
-      [ [ "RAM", 1 ] ],
-      [ [ "processor", 1 ] ],
-      [ [ "scrap", 1 ] ],
-      [ [ "quad_rotors", 1 ] ],
-      [ [ "lens", 1 ] ],
-	  [ [ "nailgun", 1 ] ]
-    ]
-  },
-  {
-    "type": "recipe",
     "result": "bot_roomba_boom",
     "category": "CC_ELECTRONIC",
     "subcategory": "CSC_ELECTRONIC_OTHER",
@@ -256,6 +227,35 @@
 	  [ [ "motor_tiny", 1 ] ],
 	  [ [ "small_storage_battery", 1 ] ],
 	  [ [ "grenade", 1 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "bot_nailer",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_OTHER",
+    "skill_used": "electronics",
+    "skills_required": [ [ "mechanics", 7 ], [ "computer", 6 ] ],
+    "difficulty": 8,
+    "book_learn": [ [ "textbook_hack_robots", 6 ] ],
+    "time": "60 m",
+    "using": [ [ "soldering_standard", 10 ] ],
+    "qualities": [
+      { "id": "SCREW", "level": 1 },
+      { "id": "SCREW_FINE", "level": 1 }
+    ],
+    "components": [
+	  [ [ "ai_module", 1 ] ],
+      [ [ "identification_module", 1 ] ],
+      [ [ "pathfinding_module", 1 ] ],
+      [ [ "sensor_module", 1 ] ],
+      [ [ "small_storage_battery", 1 ] ],
+      [ [ "RAM", 1 ] ],
+      [ [ "processor", 1 ] ],
+      [ [ "scrap", 1 ] ],
+      [ [ "quad_rotors", 1 ] ],
+      [ [ "lens", 1 ] ],
+	  [ [ "nailgun", 1 ] ]
     ]
   }
 ]

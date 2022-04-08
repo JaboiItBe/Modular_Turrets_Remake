@@ -199,7 +199,7 @@
     "name": "eye nail",
     "symbol": "e",
     "description": "A dark humor concoction thought up by a mad scavenger, unthinkable before the cataclysm, but it seems now the gloves are off.",
-    "default_faction": "defense_bot",
+    "default_faction": "utility_bot",
     "diff": 30,
     "color": "light_gray",
     "revert_to_itype": "bot_eyebot_nail",

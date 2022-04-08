@@ -214,7 +214,7 @@
         "fake_dex": 8,
         "no_ammo_sound": "click click!",
         "ranges": [ [ 0, 4, "default" ] ],
-		"targeting_sound": "\"Hostile head detected.\""
+		"targeting_sound": "\"Hostile head detected.\"",
 		"targeting_volume": 10
       }
     ],

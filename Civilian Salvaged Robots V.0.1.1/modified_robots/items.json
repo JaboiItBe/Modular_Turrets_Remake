@@ -128,7 +128,8 @@
       "difficulty": 3,
       "moves": 100,
       "skills": [ "electronics", "computer" ]
-    },
+	  }
+  },
   {
     "id": "bot_grocery_killer",
     "weight": "140 kg",

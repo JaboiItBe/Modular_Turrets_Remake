@@ -147,7 +147,7 @@
     "using":  [ [ "soldering_standard", 5 ] ],
     "qualities": [
 	  { "id": "SCREW", "level": 1 },
-	  { "id": "SCREW_FINE", "level": 1 },
+	  { "id": "SCREW_FINE", "level": 1 }
 	],
     "components": [
 	  [ [ "ai_module", 1 ] ],
